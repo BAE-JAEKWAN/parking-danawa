@@ -1,0 +1,17 @@
+@charset "utf-8";
+#map {
+  height: calc(100vh - 195px);
+  margin-left: 0;
+}
+.title {
+  text-align: center;
+}
+.infoWindow {
+  width: 300px;
+  padding: 0 10px;
+  font-size: 12px;
+}
+.infoTitle {
+  font-weight: bold;
+  font-size: 1.2em;
+}
