@@ -2,7 +2,7 @@ const API_KEY = "4878467965626a6b34355851476d4e";
 
 // await를 쓰려면 async를 선언해줘야 함.
 const getData = async (curentLat, curentLng, localName) => {
-  const url = `https://openapi.seoul.go.kr:8088/${API_KEY}/json/GetParkInfo/1/20/${localName}`;
+  const url = `http://openapi.seoul.go.kr:8088/${API_KEY}/json/GetParkInfo/1/20/${localName}`;
   // console.log(url);
   // issue : 현재 서울 공공데이터 API에서 좌표 정보를 반환해주지 않고 있음. => 마커 표시 안됨. 주소 정보를 좌표 정보로 바꿔주는 로직 필요 (2023.4.10)
 
